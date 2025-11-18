@@ -44,6 +44,8 @@ While browsing the homepage of Helpinvest, the user can input the data they want
 ### Diagram is generated and displayed
 Once the values are entered, they are sent to the application layer, where the business logic is applied and the diagram is generated, using the Matplotlib library. The graph will be saved in a local folder (static>images) as a .png image, for easy access from the presentation layer. Then, a new page is loaded for the user, which will access the "images" folder and display the .png image saveed inside. Once in this page, the user also has the possibility to redirect to the main page in order to generate a new diagram, which will be saved over the old one in the "images" folder.
 
+![Sequence Diagram](Sequence_Diagram_Helpinvest.png)
+
 ## Behaviour
 The flowchart below shows what are the activities performed when using the application.
 - User inputs data
@@ -53,6 +55,8 @@ The flowchart below shows what are the activities performed when using the appli
 - A new page is loaded, displaying the diagram
 - User can go back to main page to generate a new one
 
+  
+  ![Flowchart](Flowchart_Helpinvest.png)
   
 ## Data-related aspects
 The application is designed to be stateless and therefore it does not use any persistence technologies, such as SQL or NoSQL databases.
