@@ -29,13 +29,21 @@ For what concerns the front end, Heplinvest was built using the main web applica
 ### Back-end:
 Considering the back-end, the main technology used was Python, in particualr Flask, a lightweight web framework for Python that allows users to build web applications and APIs. This decision was taken because of the simple nature of the project, which did not require any more complex technologies. Additional Python libraries, such as Numpy and Matplotlib were used in order to create the diagrams to be displayed.
 
-## Modelling
+## Domain Driven Design
+### Domain
+The domain of Helpinvest is fairly simple, focussing on the amount of money the users would like to invenst, and the level of risk (and related volatily) they are willing to take. The possible users of the application can range from people who want to invest on their own and professionals who want to quickly visualise the behaviour of their investment portfolio.
 
-- This section explains how the domain has been modelled
-- This section should contains some class diagrams
-    - The application's most relevant design aspects are highlighted, showcasing how they solve the problems described in the analysis
-    - Diagrams do not show implementation aspects that are not relevant, such as private fields
-- This section describe how the tactical patterns and other aspects of DDD seen in class were applied
+### Core entitites
+Even though the implementation uses functions instead of classes, the conceptual model can be expressed through domain classes to illustrate the design.
+#### User
+- Represents the user's input data
+- Ensures the presence and basic correctness of attributes
+#### RiskAssesment
+- Ecapsulates the evaluation rules
+- Input: User
+- Output: AssessmentResult
+#### AssesmentResult 
+- Contains the derived risk classification
 
 
 ## Interaction
