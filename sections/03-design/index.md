@@ -45,6 +45,9 @@ Even though the implementation uses functions instead of classes, the conceptual
 #### AssesmentResult 
 - Contains the derived risk classification
 
+### Commands
+The only actual command is related to the creation of the diagram that will then be displayed. When the command is triggered, a specific function (based on the level of risk chosen) runs, generating the diagram using the amounts gathered from the user's input.
+
 
 ## Interaction
 ### User inputs data
