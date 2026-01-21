@@ -8,7 +8,7 @@ nav_order: 8
 This section describes the steps required to deploy the **Helpinvest** web application on a user's machine.
 ## System requirements
 In order to run Helpinvest locally, the following software must be installed:
-- Python 3. +
+- Python 3.x
 - pip
 - Web browser
 
