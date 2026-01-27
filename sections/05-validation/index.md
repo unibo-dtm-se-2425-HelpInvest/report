@@ -30,7 +30,7 @@ The successful outcome of the Acceptance Tests demonstrates that the application
 
 - **Correct Calculation:** The financial model is validated and operates according to the specified compound interest and inflation-adjustment logic, providing reliable results.
 
-- ** Usability and Flow:** The user interface is functional, intuitive, and allows the user to easily input their investment parameters and receive a clear, comprehensible visualization of the projections, fulfilling the requirement for a helpful tool.
+- **Usability and Flow:** The user interface is functional, intuitive, and allows the user to easily input their investment parameters and receive a clear, comprehensible visualization of the projections, fulfilling the requirement for a helpful tool.
 
 - **Visualization Fidelity:** The Matplotlib generated plot correctly visualizes the different return scenarios (High, Avg, Low) relative to the base capital, allowing the user to correctly perceive the range of outcomes for their chosen risk profile.
 
