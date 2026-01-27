@@ -13,8 +13,5 @@ Considering the fairly simple nature of the project itself and the fact that the
 
 ### Conventions for commits
 All commits adhered to a clear and descriptive convention to ensure a high-quality, traceable history of changes. Initially, the commits' titles were kept as simple as possible, while more specific details were included in the commit description. Towards the end of the project, it was decided to use the AI generated commits, directly available on GitHub, which needed only small adjustments. These were more specific and descriptive than the initial ones, but they still remained fairly simple.
-## Implementation details
 
-- Describe anything new AND relevant that you learned and are willing to report
-    - For example, a class of which you are particularly proud
 
