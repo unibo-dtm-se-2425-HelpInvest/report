@@ -46,7 +46,7 @@ The frontend can be extended by:
 
 CSS styles can be modified in the *static/files/* directory without affecting backend functionality. 
 
-## Plot generation adn file handling 
+## Plot generation and file handling 
 Plots are generated in dynamically using Matplotlib and saved as image files in the *static/images/* directory. Developers should be aware that each new plot overwrites the previous one. 
 Possible changes and improvements could be :
 - Generating unique filenames per session or user
