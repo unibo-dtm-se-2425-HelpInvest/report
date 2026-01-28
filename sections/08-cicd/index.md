@@ -4,12 +4,6 @@ has_children: false
 nav_order: 9
 ---
 
-# CI/CD
-
-- This section provides a conceptual description of the CI/CD workflow
-    - What is how automated?
-    - Why?
-- Relevant details of GitHub Actions exploitation / implementation
 # Continuos Integration and Continuous Development overview
 CI/CD (Continuous Integration and Continuous Deployment) is a development practice that automates the process of integrating code changes, testing them, and delivering the application to a runnable environment.
 The project combines:
